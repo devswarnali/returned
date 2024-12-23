@@ -1,0 +1,1326 @@
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Basic Sans Alt It';
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansAltItRegular.eot');
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansAltItRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltItRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltItRegular.woff') format('woff'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltItRegular.ttf') format('truetype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltItRegular.svg#FONTSPRINGDEMO-BasicSansAltItRegular') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Basic Sans Alt';
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansAltBoldRegular.eot');
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansAltBoldRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltBoldRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltBoldRegular.woff') format('woff'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltBoldRegular.ttf') format('truetype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltBoldRegular.svg#FONTSPRINGDEMO-BasicSansAltBoldRegular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Basic Sans Alt';
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansAltBlackRegular.eot');
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansAltBlackRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltBlackRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltBlackRegular.woff') format('woff'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltBlackRegular.ttf') format('truetype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltBlackRegular.svg#FONTSPRINGDEMO-BasicSansAltBlackRegular') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Basic Sans Alt';
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansAltExtraLightRegular.eot');
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansAltExtraLightRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltExtraLightRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltExtraLightRegular.woff') format('woff'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltExtraLightRegular.ttf') format('truetype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltExtraLightRegular.svg#FONTSPRINGDEMO-BasicSansAltExtraLightRegular') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Basic Sans Alt Light It';
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansAltLightItRegular.eot');
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansAltLightItRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltLightItRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltLightItRegular.woff') format('woff'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltLightItRegular.ttf') format('truetype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltLightItRegular.svg#FONTSPRINGDEMO-BasicSansAltLightItRegular') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Basic Sans Alt';
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansAltLightRegular.eot');
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansAltLightRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltLightRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltLightRegular.woff') format('woff'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltLightRegular.ttf') format('truetype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltLightRegular.svg#FONTSPRINGDEMO-BasicSansAltLightRegular') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Basic Sans Alt ExtraLight It';
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansAltExtraLightItRegular.eot');
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansAltExtraLightItRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltExtraLightItRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltExtraLightItRegular.woff') format('woff'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltExtraLightItRegular.ttf') format('truetype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltExtraLightItRegular.svg#FONTSPRINGDEMO-BasicSansAltExtraLightItRegular') format('svg');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Basic Sans Alt Bold It';
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansAltBoldItRegular.eot');
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansAltBoldItRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltBoldItRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltBoldItRegular.woff') format('woff'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltBoldItRegular.ttf') format('truetype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltBoldItRegular.svg#FONTSPRINGDEMO-BasicSansAltBoldItRegular') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Basic Sans Alt';
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansAltRegular.eot');
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansAltRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltRegular.woff') format('woff'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltRegular.ttf') format('truetype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltRegular.svg#FONTSPRINGDEMO-BasicSansAltRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Basic Sans Alt Black It';
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansAltBlackItRegular.eot');
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansAltBlackItRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltBlackItRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltBlackItRegular.woff') format('woff'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltBlackItRegular.ttf') format('truetype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltBlackItRegular.svg#FONTSPRINGDEMO-BasicSansAltBlackItRegular') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Basic Sans Alt SemiBold It';
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansAltSemiBoldItRegular.eot');
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansAltSemiBoldItRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltSemiBoldItRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltSemiBoldItRegular.woff') format('woff'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltSemiBoldItRegular.ttf') format('truetype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltSemiBoldItRegular.svg#FONTSPRINGDEMO-BasicSansAltSemiBoldItRegular') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Basic Sans It';
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansItRegular.eot');
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansItRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansItRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansItRegular.woff') format('woff'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansItRegular.ttf') format('truetype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansItRegular.svg#FONTSPRINGDEMO-BasicSansItRegular') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Basic Sans';
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansBoldRegular.eot');
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansBoldRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansBoldRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansBoldRegular.woff') format('woff'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansBoldRegular.ttf') format('truetype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansBoldRegular.svg#FONTSPRINGDEMO-BasicSansBoldRegular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Basic Sans';
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansRegular.eot');
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansRegular.woff') format('woff'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansRegular.ttf') format('truetype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansRegular.svg#FONTSPRINGDEMO-BasicSansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Basic Sans Light It';
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansLightItRegular.eot');
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansLightItRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansLightItRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansLightItRegular.woff') format('woff'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansLightItRegular.ttf') format('truetype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansLightItRegular.svg#FONTSPRINGDEMO-BasicSansLightItRegular') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Basic Sans Alt';
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansAltThinRegular.eot');
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansAltThinRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltThinRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltThinRegular.woff') format('woff'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltThinRegular.ttf') format('truetype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltThinRegular.svg#FONTSPRINGDEMO-BasicSansAltThinRegular') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Basic Sans';
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansExtraLightRegular.eot');
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansExtraLightRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansExtraLightRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansExtraLightRegular.woff') format('woff'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansExtraLightRegular.ttf') format('truetype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansExtraLightRegular.svg#FONTSPRINGDEMO-BasicSansExtraLightRegular') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Basic Sans ExtraLight It';
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansExtraLightItRegular.eot');
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansExtraLightItRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansExtraLightItRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansExtraLightItRegular.woff') format('woff'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansExtraLightItRegular.ttf') format('truetype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansExtraLightItRegular.svg#FONTSPRINGDEMO-BasicSansExtraLightItRegular') format('svg');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Basic Sans';
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansLightRegular.eot');
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansLightRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansLightRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansLightRegular.woff') format('woff'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansLightRegular.ttf') format('truetype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansLightRegular.svg#FONTSPRINGDEMO-BasicSansLightRegular') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Basic Sans Alt Thin It';
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansAltThinItRegular.eot');
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansAltThinItRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltThinItRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltThinItRegular.woff') format('woff'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltThinItRegular.ttf') format('truetype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltThinItRegular.svg#FONTSPRINGDEMO-BasicSansAltThinItRegular') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Basic Sans Black It';
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansBlackItRegular.eot');
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansBlackItRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansBlackItRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansBlackItRegular.woff') format('woff'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansBlackItRegular.ttf') format('truetype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansBlackItRegular.svg#FONTSPRINGDEMO-BasicSansBlackItRegular') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Basic Sans Alt';
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansAltSemiBoldRegular.eot');
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansAltSemiBoldRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltSemiBoldRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltSemiBoldRegular.woff') format('woff'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltSemiBoldRegular.ttf') format('truetype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansAltSemiBoldRegular.svg#FONTSPRINGDEMO-BasicSansAltSemiBoldRegular') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Basic Sans';
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansBlackRegular.eot');
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansBlackRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansBlackRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansBlackRegular.woff') format('woff'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansBlackRegular.ttf') format('truetype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansBlackRegular.svg#FONTSPRINGDEMO-BasicSansBlackRegular') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Basic Sans';
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansSemiBoldRegular.eot');
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansSemiBoldRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansSemiBoldRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansSemiBoldRegular.woff') format('woff'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansSemiBoldRegular.ttf') format('truetype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansSemiBoldRegular.svg#FONTSPRINGDEMO-BasicSansSemiBoldRegular') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Basic Sans Bold It';
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansBoldItRegular.eot');
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansBoldItRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansBoldItRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansBoldItRegular.woff') format('woff'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansBoldItRegular.ttf') format('truetype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansBoldItRegular.svg#FONTSPRINGDEMO-BasicSansBoldItRegular') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Basic Sans';
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansThinRegular.eot');
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansThinRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansThinRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansThinRegular.woff') format('woff'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansThinRegular.ttf') format('truetype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansThinRegular.svg#FONTSPRINGDEMO-BasicSansThinRegular') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Basic Sans Thin It';
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansThinItRegular.eot');
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansThinItRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansThinItRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansThinItRegular.woff') format('woff'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansThinItRegular.ttf') format('truetype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansThinItRegular.svg#FONTSPRINGDEMO-BasicSansThinItRegular') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Basic Sans SemiBold It';
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansSemiBoldItRegular.eot');
+    src: url('../fonts/FONTSPRINGDEMO-BasicSansSemiBoldItRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansSemiBoldItRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansSemiBoldItRegular.woff') format('woff'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansSemiBoldItRegular.ttf') format('truetype'),
+        url('../fonts/FONTSPRINGDEMO-BasicSansSemiBoldItRegular.svg#FONTSPRINGDEMO-BasicSansSemiBoldItRegular') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RocaOne-BdIt';
+    src: url('../fonts/RocaOne-BdIt.eot');
+    src: url('../fonts/RocaOne-BdIt.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RocaOne-BdIt.woff2') format('woff2'),
+        url('../fonts/RocaOne-BdIt.woff') format('woff'),
+        url('../fonts/RocaOne-BdIt.ttf') format('truetype'),
+        url('../fonts/RocaOne-BdIt.svg#RocaOne-BdIt') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RocaOne-BlIt';
+    src: url('../fonts/RocaOne-BlIt.eot');
+    src: url('../fonts/RocaOne-BlIt.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RocaOne-BlIt.woff2') format('woff2'),
+        url('../fonts/RocaOne-BlIt.woff') format('woff'),
+        url('../fonts/RocaOne-BlIt.ttf') format('truetype'),
+        url('../fonts/RocaOne-BlIt.svg#RocaOne-BlIt') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RocaOne-Bl';
+    src: url('../fonts/RocaOne-Bl.eot');
+    src: url('../fonts/RocaOne-Bl.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RocaOne-Bl.woff2') format('woff2'),
+        url('../fonts/RocaOne-Bl.woff') format('woff'),
+        url('../fonts/RocaOne-Bl.ttf') format('truetype'),
+        url('../fonts/RocaOne-Bl.svg#RocaOne-Bl') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RocaOne-Hv';
+    src: url('../fonts/RocaOne-Hv.eot');
+    src: url('../fonts/RocaOne-Hv.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RocaOne-Hv.woff2') format('woff2'),
+        url('../fonts/RocaOne-Hv.woff') format('woff'),
+        url('../fonts/RocaOne-Hv.ttf') format('truetype'),
+        url('../fonts/RocaOne-Hv.svg#RocaOne-Hv') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RocaOne-HvIt';
+    src: url('../fonts/RocaOne-HvIt.eot');
+    src: url('../fonts/RocaOne-HvIt.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RocaOne-HvIt.woff2') format('woff2'),
+        url('../fonts/RocaOne-HvIt.woff') format('woff'),
+        url('../fonts/RocaOne-HvIt.ttf') format('truetype'),
+        url('../fonts/RocaOne-HvIt.svg#RocaOne-HvIt') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RocaOne';
+    src: url('../fonts/RocaOne-Bold.eot');
+    src: url('../fonts/RocaOne-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RocaOne-Bold.woff2') format('woff2'),
+        url('../fonts/RocaOne-Bold.woff') format('woff'),
+        url('../fonts/RocaOne-Bold.ttf') format('truetype'),
+        url('../fonts/RocaOne-Bold.svg#RocaOne-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RocaOne-It';
+    src: url('../fonts/RocaOne-It.eot');
+    src: url('../fonts/RocaOne-It.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RocaOne-It.woff2') format('woff2'),
+        url('../fonts/RocaOne-It.woff') format('woff'),
+        url('../fonts/RocaOne-It.ttf') format('truetype'),
+        url('../fonts/RocaOne-It.svg#RocaOne-It') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RocaOne-LtIt';
+    src: url('../fonts/RocaOne-LtIt.eot');
+    src: url('../fonts/RocaOne-LtIt.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RocaOne-LtIt.woff2') format('woff2'),
+        url('../fonts/RocaOne-LtIt.woff') format('woff'),
+        url('../fonts/RocaOne-LtIt.ttf') format('truetype'),
+        url('../fonts/RocaOne-LtIt.svg#RocaOne-LtIt') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RocaOne-Lt';
+    src: url('../fonts/RocaOne-Lt.eot');
+    src: url('../fonts/RocaOne-Lt.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RocaOne-Lt.woff2') format('woff2'),
+        url('../fonts/RocaOne-Lt.woff') format('woff'),
+        url('../fonts/RocaOne-Lt.ttf') format('truetype'),
+        url('../fonts/RocaOne-Lt.svg#RocaOne-Lt') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RocaOne-ThIt';
+    src: url('../fonts/RocaOne-ThIt.eot');
+    src: url('../fonts/RocaOne-ThIt.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RocaOne-ThIt.woff2') format('woff2'),
+        url('../fonts/RocaOne-ThIt.woff') format('woff'),
+        url('../fonts/RocaOne-ThIt.ttf') format('truetype'),
+        url('../fonts/RocaOne-ThIt.svg#RocaOne-ThIt') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RocaOne-Rg';
+    src: url('../fonts/RocaOne-Rg.eot');
+    src: url('../fonts/RocaOne-Rg.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RocaOne-Rg.woff2') format('woff2'),
+        url('../fonts/RocaOne-Rg.woff') format('woff'),
+        url('../fonts/RocaOne-Rg.ttf') format('truetype'),
+        url('../fonts/RocaOne-Rg.svg#RocaOne-Rg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RocaTwo-BlIt';
+    src: url('../fonts/RocaTwo-BlIt.eot');
+    src: url('../fonts/RocaTwo-BlIt.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RocaTwo-BlIt.woff2') format('woff2'),
+        url('../fonts/RocaTwo-BlIt.woff') format('woff'),
+        url('../fonts/RocaTwo-BlIt.ttf') format('truetype'),
+        url('../fonts/RocaTwo-BlIt.svg#RocaTwo-BlIt') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RocaOne-Th';
+    src: url('../fonts/RocaOne-Th.eot');
+    src: url('../fonts/RocaOne-Th.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RocaOne-Th.woff2') format('woff2'),
+        url('../fonts/RocaOne-Th.woff') format('woff'),
+        url('../fonts/RocaOne-Th.ttf') format('truetype'),
+        url('../fonts/RocaOne-Th.svg#RocaOne-Th') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RocaTwo-BdIt';
+    src: url('../fonts/RocaTwo-BdIt.eot');
+    src: url('../fonts/RocaTwo-BdIt.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RocaTwo-BdIt.woff2') format('woff2'),
+        url('../fonts/RocaTwo-BdIt.woff') format('woff'),
+        url('../fonts/RocaTwo-BdIt.ttf') format('truetype'),
+        url('../fonts/RocaTwo-BdIt.svg#RocaTwo-BdIt') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RocaTwo';
+    src: url('../fonts/RocaTwo-Bold.eot');
+    src: url('../fonts/RocaTwo-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RocaTwo-Bold.woff2') format('woff2'),
+        url('../fonts/RocaTwo-Bold.woff') format('woff'),
+        url('../fonts/RocaTwo-Bold.ttf') format('truetype'),
+        url('../fonts/RocaTwo-Bold.svg#RocaTwo-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RocaTwo-Bl';
+    src: url('../fonts/RocaTwo-Bl.eot');
+    src: url('../fonts/RocaTwo-Bl.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RocaTwo-Bl.woff2') format('woff2'),
+        url('../fonts/RocaTwo-Bl.woff') format('woff'),
+        url('../fonts/RocaTwo-Bl.ttf') format('truetype'),
+        url('../fonts/RocaTwo-Bl.svg#RocaTwo-Bl') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RocaTwo-HvIt';
+    src: url('../fonts/RocaTwo-HvIt.eot');
+    src: url('../fonts/RocaTwo-HvIt.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RocaTwo-HvIt.woff2') format('woff2'),
+        url('../fonts/RocaTwo-HvIt.woff') format('woff'),
+        url('../fonts/RocaTwo-HvIt.ttf') format('truetype'),
+        url('../fonts/RocaTwo-HvIt.svg#RocaTwo-HvIt') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RocaTwo-Hv';
+    src: url('../fonts/RocaTwo-Hv.eot');
+    src: url('../fonts/RocaTwo-Hv.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RocaTwo-Hv.woff2') format('woff2'),
+        url('../fonts/RocaTwo-Hv.woff') format('woff'),
+        url('../fonts/RocaTwo-Hv.ttf') format('truetype'),
+        url('../fonts/RocaTwo-Hv.svg#RocaTwo-Hv') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RocaTwo-It';
+    src: url('../fonts/RocaTwo-It.eot');
+    src: url('../fonts/RocaTwo-It.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RocaTwo-It.woff2') format('woff2'),
+        url('../fonts/RocaTwo-It.woff') format('woff'),
+        url('../fonts/RocaTwo-It.ttf') format('truetype'),
+        url('../fonts/RocaTwo-It.svg#RocaTwo-It') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RocaTwo-LtIt';
+    src: url('../fonts/RocaTwo-LtIt.eot');
+    src: url('../fonts/RocaTwo-LtIt.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RocaTwo-LtIt.woff2') format('woff2'),
+        url('../fonts/RocaTwo-LtIt.woff') format('woff'),
+        url('../fonts/RocaTwo-LtIt.ttf') format('truetype'),
+        url('../fonts/RocaTwo-LtIt.svg#RocaTwo-LtIt') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RocaTwo-Lt';
+    src: url('../fonts/RocaTwo-Lt.eot');
+    src: url('../fonts/RocaTwo-Lt.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RocaTwo-Lt.woff2') format('woff2'),
+        url('../fonts/RocaTwo-Lt.woff') format('woff'),
+        url('../fonts/RocaTwo-Lt.ttf') format('truetype'),
+        url('../fonts/RocaTwo-Lt.svg#RocaTwo-Lt') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RocaTwo-Rg';
+    src: url('../fonts/RocaTwo-Rg.eot');
+    src: url('../fonts/RocaTwo-Rg.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RocaTwo-Rg.woff2') format('woff2'),
+        url('../fonts/RocaTwo-Rg.woff') format('woff'),
+        url('../fonts/RocaTwo-Rg.ttf') format('truetype'),
+        url('../fonts/RocaTwo-Rg.svg#RocaTwo-Rg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RocaTwo-Th';
+    src: url('../fonts/RocaTwo-Th.eot');
+    src: url('../fonts/RocaTwo-Th.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RocaTwo-Th.woff2') format('woff2'),
+        url('../fonts/RocaTwo-Th.woff') format('woff'),
+        url('../fonts/RocaTwo-Th.ttf') format('truetype'),
+        url('../fonts/RocaTwo-Th.svg#RocaTwo-Th') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RocaTwo-ThIt';
+    src: url('../fonts/RocaTwo-ThIt.eot');
+    src: url('../fonts/RocaTwo-ThIt.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RocaTwo-ThIt.woff2') format('woff2'),
+        url('../fonts/RocaTwo-ThIt.woff') format('woff'),
+        url('../fonts/RocaTwo-ThIt.ttf') format('truetype'),
+        url('../fonts/RocaTwo-ThIt.svg#RocaTwo-ThIt') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    /* font-family: 'FONTSPRING DEMO - Basic Sans Alt';  */
+    font-family: "FONTSPRING DEMO - Basic Sans", sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+    color: #31225A;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'RocaOne-Rg';
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    max-width: 590px;
+    font-size: 75px;
+    line-height: 70px;
+    color: #fff;
+    position: relative;
+    padding-bottom: 32px;
+}
+
+h2{
+    max-width: 522px;
+    font-size: 45px;
+    line-height: 46px;
+    color: #31225A;
+}
+
+h3{
+    font-size: 65px;
+    line-height: 46px;
+    color: #4653BB;
+}
+
+h4{
+    font-size: 35px;
+    line-height: 38px;
+    color: #4653BB;
+}
+
+p{
+    padding: 0px;
+    margin: 0px;
+}
+
+ul,
+ol{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    transition: .3s ease-in-out;
+}
+
+.header{
+    width: 100%;
+    height: 101px;
+    display: flex;
+    align-items: center;
+}
+
+.container-fluid{
+    padding: 0px;
+}
+
+.navbar-expand-lg .navbar-collapse{
+    justify-content: space-between;
+}
+
+.navbar-brand img{
+    width: 228px;
+    height: 46px;
+}
+
+.navbar-nav{
+    margin: 0px auto;
+}
+
+.navbar-nav>li>a{
+    font-size: 16px;
+    line-height: 140%;
+    color: #31225A !important;
+    padding: 0px 21px !important;
+    font-family: "FONTSPRING DEMO - Basic Sans", sans-serif;
+    font-weight: 400;
+}
+
+.navbar-nav>li>a:hover{
+    color:#4653bb !important;
+}
+
+.primary-button{
+    background-color: #4653BB;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: capitalize;
+    padding: 9px 16px 10px;
+}
+
+.primary-button:hover,
+.secondary-button:hover{
+    background-color: #31225A;
+    color: #fff;
+}
+
+.secondary-button{
+    background-color: #fff;
+    color: #31225A;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: capitalize;
+    padding: 9px 16px 10px;
+}
+
+
+
+/* section-one-start(make-returns) */
+.make-returns{
+    width: 100%;
+    background-color: #4653BB;
+    position: relative;
+    overflow: hidden;
+    padding: 124px 0px;
+    z-index: 9;
+}
+
+.make-returns-content,
+.average-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.make-returns-content-cont p{
+    max-width: 437px;
+    font-family: "FONTSPRING DEMO - Basic Sans", sans-serif;
+    color: #fff;
+    padding-bottom: 44px;
+}
+
+.make-returns-content-cont{
+    position: relative;
+}
+
+.returns-vector-circle{
+    position: absolute;
+    top: -330px;
+    left: -333px;
+    z-index: -1;
+}
+
+.make-returns-content-image{
+    position: relative;
+}
+
+.banner-one-phone-img{
+    width: 519px;
+    height: 523px;
+}
+
+.returns-vector-petal{
+    position: absolute;
+    top: -124px;
+    right: -123px;
+    z-index: -1;
+}
+
+.returns-vector-triangle{
+    position: absolute;
+    bottom: -124px;
+    left: -280px;
+    z-index: -1;
+}
+
+.returns-vector-sky-circle{
+    position: absolute;
+    bottom: 18px;
+    left: -201px;
+    z-index: -1;
+}
+
+.returns-vector-squar{
+    position: absolute;
+    bottom: -124px;
+    right: -123px;
+    z-index: -1;
+}
+
+
+
+/* section-two-start(average) */
+
+.average,
+.how-it-works{
+    padding: 37px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.average-inner,
+.how-it-works-inner{
+    width: 100%;
+    max-width: 1366px;
+    padding: 122px 0px 129px;
+    background-color: #F7F6F0;
+}
+
+.average-content-image{
+    position: relative;
+}
+
+.average-vector-circle{
+    position: absolute;
+    right: -150px;
+    bottom: 47px;
+}
+
+.average-content-cont h2{
+    padding-bottom: 18px;
+}
+
+.average-content-cont p{
+    max-width: 455px;
+}
+
+.average-lower-content{
+    display: flex;
+    justify-content: center;
+    margin-top: -47px;
+}
+
+.average-lower-content-inner{
+    width: 100%;
+    max-width: 896px;
+}
+
+.average-row-adjuster{
+    --bs-gutter-x: 64px;
+    --bs-gutter-y: 0;
+}
+
+.average-lower-cont{
+    height: 100%;
+    min-height: 256px;
+    background-color: #A7CBDE;
+    padding: 77px 28px 20px 36px;
+}
+
+.average-lower-cont h3{
+    padding-bottom: 15px;
+}
+
+.average-lower-cont p{
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.z-index-9{
+    position: relative;
+    z-index: 2;
+}
+
+
+
+/* section-three-start(app-create) */
+
+.app-create{
+    background-color: #A7CBDE;
+    padding: 88px 0px 134px;
+}
+
+.app-row-adjuster{
+    display: flex;
+    align-items: center;
+}
+
+.app-create-box{
+    position: relative;
+    z-index: 1;
+}
+
+.app-create-inner h2{
+    padding-bottom: 25px;
+}
+
+.app-create-inner p{
+    max-width: 435px;
+}
+
+.app-vector-wh-circle{
+    position: absolute;
+    top: -47px;
+    left: -333px;
+    z-index: -1;
+}
+
+.app-create-image{
+    width: 385px;
+    height: 427px;
+    margin-left:-20px;
+}
+
+.app-adjuster{
+    padding-bottom: 30px;
+}
+
+.app-vector-triangle{
+    position: absolute;
+    bottom: -134px;
+    right: -120px;
+    z-index: -1;
+}
+
+.app-vector-petal{
+    position: absolute;
+    top: -125px;
+    right: -7px;
+    z-index: -1;
+}
+
+.app-vector-pink-circle{
+    position: absolute;
+    bottom: 81px;
+    right: 79px;
+    z-index: -1;
+}
+
+
+
+/* section-four-start(how-it-works) */
+
+.how-it-works-inner{
+    padding: 84px 0px 148px;
+    position: relative;
+    z-index: 1;
+}
+
+.how-it-works-vector-petal{
+    position: absolute;
+    top: -37px;
+    left: -37px;
+    z-index: -1;
+}
+
+.how-it-works-vector-triangle{
+    position: absolute;
+    top: 108px;
+    right: -37px;
+    z-index: -1;
+}
+
+.how-it-works-vector-yellow-circle{
+    position: absolute;
+    top: 141px;
+    right: 244px;
+    z-index: -1;
+}
+
+.how-it-works-vector-blue-circle{
+    position: absolute;
+    bottom: -171px;
+    left: -211px;
+    z-index: -1;
+}
+
+.how-it-works-container{
+    display: flex;
+    justify-content: center;
+}
+
+.how-it-works-content{
+    width: 100%;
+    max-width: 900px;
+}
+
+.how-it-works-heading{
+    padding: 0px 0px 55px 3px;
+}
+
+.how-it-works-row-adjuster{
+    --bs-gutter-x: 70px;
+    --bs-gutter-y: 0px;
+}
+
+.how-it-works-cont{
+    position: relative;
+}
+
+.phone-work-count{
+    width: 95px;
+    height: 95px;
+    border: 2px solid #4653BB;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.work-count-one{
+    top: 144px;
+    left: -74px;
+}
+
+.work-count-two{
+    top: -63px;
+    left: -51px;
+}
+
+.work-count-three{
+    top: 276px;
+    right: -75px;
+}
+
+.ph-one-padding{
+    padding: 58px 2px 0px 3px;
+}
+
+.ph-two-padding{
+    padding: 58px 0px 0px 7px;
+}
+
+.ph-three-padding{
+    padding: 58px 3px 0px 2px;
+}
+
+/* .how-it-works-cont-cont{
+    padding: 58px 0px 0px 0px;
+} */
+
+.how-it-works-cont-cont h4{
+    padding: 0 0 20px 0;
+}
+
+
+
+/* section-five-start(effortless-returns) */
+
+.effortless-returns{
+    padding: 55px 0px 109px;
+}
+
+.effortless-returns-heading{
+    display: flex;
+    justify-content: center;
+}
+
+.effortless-returns-heading h2{
+    width: 100%;
+    max-width: 522px;
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+.effortless-returns-slide-image-box{
+    padding-right: 21px;
+}
+
+.effortless-returns-slide-image-box img{
+    width: 87px;
+    height: 87px;
+}
+
+
+
+/* section-six-start(our-mission) */
+
+.our-mission{
+    padding: 116px 0px 96px;
+    background-color: #A7CBDE;
+    overflow: hidden;
+}
+
+.our-mission-row-adjuster{
+    --bs-gutter-x: 161px;
+    --bs-gutter-y: 0px;
+}
+
+.our-mission-inner h2{
+    width: 516px;
+    padding-bottom: 25px;
+}
+
+.our-mission-inner p{
+    width: 449px;
+    padding-bottom: 38px;
+}
+
+.our-mission-box {
+    position: relative;
+    z-index: 1;
+}
+
+.our-mission-vector-triangle{
+    position: absolute;
+    bottom: -114px;
+    left: -120px;
+    z-index: -1;
+}
+
+.our-mission-vector-petal{
+    position: absolute;
+    top: -116px;
+    right: -120px;
+    z-index: -1;
+}
+
+.our-mission-vector-circle{
+    position: absolute;
+    bottom: -122px;
+    left: -133px;
+    z-index: -1;
+}
+
+
+
+/* start footer */
+
+.footer{
+    padding: 79px 0px;
+    background-color: #31225A;
+}
+
+.footer-upper{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 38px;
+}
+
+.footer-link,
+.social-link ul,
+.social-logo ul{
+    display: flex;
+}
+
+.social-link ul{
+    /* height: 48px; */
+    padding: 9px 32px 12px 0px;
+    border-right: 1px solid #fff;
+}
+
+.social-link>ul>li{
+    padding: 0px 8px;
+}
+
+.social-link>ul>li:first-child{
+    padding-left: 0px;
+}
+
+.social-link>ul>li:last-child{
+    padding-right: 0px;
+}
+
+.social-link>ul>li>a>img,
+.social-logo>ul>li>a>img{
+    transition: .4s ease-in-out;
+}
+
+.social-link>ul>li>a>img:hover{
+    transform: scale(1.2);
+}
+
+.social-logo>ul>li>a>img:hover{
+    transform: scale(1.1);
+}
+
+.social-logo>ul{
+    padding: 10px 0px 0px 31px;
+}
+
+.social-logo>ul>li{
+    padding: 0px 15px;
+}
+
+.social-logo>ul>li:first-child{
+    padding-left: 0px;
+}
+
+.social-logo>ul>li:last-child{
+    padding-right: 0px;
+}
+
+.footer-lower>ul{
+    display: flex;
+}
+
+.footer-lower>ul>li>a{
+    font-size: 16px;
+    line-height: 140%;
+    color: #fff;
+}
+
+.footer-lower>ul>li>a:hover,
+.copyright>a:hover{
+    color: #A7CBDE;
+}
+
+.footer-lower>ul>li{
+    padding: 0px 21px;
+}
+
+.footer-lower>ul>li:first-child{
+    padding-left: 0px;
+}
+
+.footer-lower>ul>li:last-child{
+    padding-right: 0px;
+}
+
+.copyright{
+    padding-top: 33px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #fff;  
+}
+
+.copyright a{
+    color: #fff;
+}
+
+@media(min-width: 1440px){
+    .container{
+        max-width: 1230px;
+        padding: 0px 15px;
+    }
+}
